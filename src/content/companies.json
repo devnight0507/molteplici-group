@@ -1,0 +1,30 @@
+{
+  "title": "Nossas Empresas",
+  "subtitle": "Conheça as empresas do Grupo Molteplici",
+  "items": [
+    {
+      "id": "imo",
+      "name": "IMO Investimentos",
+      "action": "Investir",
+      "description": "Estruturação de investimentos imobiliários para brasileiros, com foco em geração de capital por meio de negócios reais.",
+      "envKey": "imo",
+      "color": "bg-blue-900"
+    },
+    {
+      "id": "brotar",
+      "name": "Brotar",
+      "action": "Construir",
+      "description": "Construção de habitações com método, previsibilidade e responsabilidade, assumindo toda a jornada da casa.",
+      "envKey": "brotar",
+      "color": "bg-neutral-800"
+    },
+    {
+      "id": "nexus",
+      "name": "Predial Nexus",
+      "action": "Realizar",
+      "description": "Imobiliária especializada em imóveis com potencial de valorização, atuando antes do mercado tradicional.",
+      "envKey": "predialNexus",
+      "color": "bg-stone-700"
+    }
+  ]
+}
