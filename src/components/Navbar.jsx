@@ -23,10 +23,10 @@ export default function Navbar() {
         <a href="#">
           <Image
             src={isScrolled ? '/logos/logo.png' : '/logos/logo-white.png'}
-            alt="Molteplici Group"
-            width={200}
-            height={80}
-            className="h-16 md:h-20 w-auto object-contain"
+            alt="IMO Investimentos"
+            width={160}
+            height={64}
+            className="h-10 md:h-16 w-auto object-contain"
             priority
           />
         </a>
