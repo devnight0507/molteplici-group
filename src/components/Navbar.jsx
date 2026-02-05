@@ -23,22 +23,20 @@ export default function Navbar() {
         <a href="#">
           <Image
             src={isScrolled ? '/logos/logo.png' : '/logos/logo-white.png'}
-            alt="IMO Investimentos"
+            alt="Grupo Molteplici"
             width={160}
             height={64}
-            className="h-10 md:h-16 w-auto object-contain"
+            className="h-10 md:h-12 w-auto object-contain"
             priority
           />
         </a>
 
         <a
-          href={`https://wa.me/${site.contact.whatsapp.replace('+', '')}`}
-          target="_blank"
-          rel="noopener noreferrer"
+          href={`mailto:${site.contact.email}`}
           className={`px-4 py-2 rounded-lg font-medium transition-colors ${
             isScrolled
-              ? 'bg-brand-900 text-white hover:bg-brand-800'
-              : 'bg-white text-brand-900 hover:bg-brand-100'
+              ? 'bg-brand-dark text-white hover:bg-gray-800'
+              : 'bg-white text-brand-dark hover:bg-gray-100'
           }`}
         >
           Contacto

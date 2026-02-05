@@ -1,12 +1,11 @@
 {
-  "name": "Molteplici Group",
+  "name": "Grupo MOLTEPLICI",
   "tagline": "Investimento, Desenvolvimento e Gestão Imobiliária",
   "description": "O Grupo Molteplici reúne três empresas especializadas no setor imobiliário",
   "language": "pt-PT",
   "contact": {
     "phone": "+351 XXX XXX XXX",
-    "whatsapp": "+380970530699",
-    "email": "contato@molteplici.pt",
+    "email": "geral@molteplici.com",
     "address": "Portugal"
   }
 }

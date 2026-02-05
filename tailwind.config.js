@@ -7,26 +7,20 @@ module.exports = {
     "./src/content/**/*.json",
   ],
   safelist: [
-    'bg-blue-900',
-    'bg-neutral-800',
-    'bg-stone-700',
+    'bg-imo',
+    'bg-brotar',
+    'bg-nexus',
   ],
   theme: {
     extend: {
       colors: {
         brand: {
-          50: '#f5f7fa',
-          100: '#e8ecf1',
-          200: '#d1d9e3',
-          300: '#a8b8cc',
-          400: '#7a92b0',
-          500: '#5a7294',
-          600: '#475a78',
-          700: '#3a4861',
-          800: '#323d50',
-          900: '#2d3442',
-          950: '#1a1f2a',
+          dark: '#232323',
+          light: '#ffffff',
         },
+        imo: '#00253A',
+        brotar: '#262626',
+        nexus: '#1D1D1D',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
